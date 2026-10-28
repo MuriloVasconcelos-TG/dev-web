@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Aula 2</title>
+ <title>Aula 3</title>
   
 </head>
 <body>
 
-    <h1>Top coisas que eu gosto muito</h1>
+<form action="#" method="post">
 
-<ol type="1">
-    <li></h3>Grêmio Football Porto Alegrense</h3></li>
-<br>
-    <img src="/Gremio.jpg" alt="300px" width="300px">
-    <img src="/Como isso afeta o gremio.jpg" alt="300px" width="300px"> 
-<br>
-<br>
-<br>
-    <li></h2>Ordem Paranormal RPG</h2></li>
-    <img src="/Ordem paranormal.jpg" alt="300px" width="300px">
-    <img src="/Resenha Paranormal.jpg" alt="300px" width="300px">
-<br>
-<br>
-<br>
+    <label for="nome">nome:</label>
+    <input type="text" name="" id="nome" placeholder="Seu nome..." required>
+    <br><br>
+    <label for="Email">Email:</label>
+    <input type="email" id="email" placeholder="seuemail@email.com">
+    <br><br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="" id="senha" required>
+<br><br>
+    <label for="mensagem">mensagem</label>
+    <textarea name="mensagem" id="mensagem" rows="4" cols="50" placeholder="Escreva aqui.."></textarea>
+    <br><br>
+    <label for="cidade">cidade</label>
+    <select name="cidade" id="cidade">
+        <option value="">selecione..</option>
+        <option value="NH">Novo Hamburgo</option>
+        <option value="SL">São Leopoldo</option>
+        <option value="CB">Campo Bom</option>
+        <option value="MGO">Montenegro</option>
+    </select>
 
+<fieldset>
+    <legend>Gênero</legend>
+    <label for="">masculino</label>
+    <input type="radio" name="genero" id="fem">
+</fieldset>
 
-
-
-
-
-</ol>
+</form>
 
 
 </body>
