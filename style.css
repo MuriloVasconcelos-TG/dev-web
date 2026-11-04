@@ -1,11 +1,9 @@
+strong{
+    background-color: #fcebd8;
+    color: #8a4b08;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Tiny5+Duo:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-.caixa{
-    display: block;
-    background-color: #ddf2fa;
-    border: 2px solid #246b9e;
-    padding: 20px;
-    margin-bottom: 10px;
+a{
+    color: #246b9e;
+    margin-right: 10px;
 }
